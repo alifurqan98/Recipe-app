@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,100&family=Noto+Sans+Tagbanwa&family=Roboto:wght@100;300;400;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+body {
+    margin: 0% 2%;
+}
+h4 {
+    font-size: 1rem;
+    color: rgb(56, 56, 56);
+}
+h3 {
+    font-size: 1rem;
+    color: rgb(56, 56, 56);
+    line-height: 2.5rem;
+    margin: 2rem 0rem;
+}
+
+a {
+    color: rgb(56, 56, 56);
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Lobster Two", cursive;
+}
+.nav {
+    padding: 4rem, 0rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav svg {
+    font-size: 2.5rem;
+}
